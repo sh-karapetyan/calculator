@@ -1,0 +1,27 @@
+.text-input--danger .text-input__input {
+    border-color: #C10708;
+}
+
+.text-input__input {
+    display: block;
+    width: 100%;
+    padding: 8px 11px;
+    border: 1px solid #A4A4A4;
+    border-radius: 2px;
+}
+
+.text-input__input::-webkit-outer-spin-button,
+.text-input__input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.text-input__input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.text-input__input, .text-input__input::placeholder {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #A4A4A4;
+}
